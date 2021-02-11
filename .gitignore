@@ -1,0 +1,21 @@
+# vim
+*.swo
+*.swp
+
+# bloop and metals
+.bloop
+.bsp
+.metals
+
+# scala 3
+.tasty
+
+# compile artifacts
+*.class
+
+# sbt
+# (may want to keep parts of 'project')
+bin/
+project/
+target/
+build/
